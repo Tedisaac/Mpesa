@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:text="Enter Amount."
+        android:textSize="8pt"
+        android:gravity="center"
+        android:textColor="@color/black">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/amo"
+        android:inputType="number">
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Digits(0-9,*,#,+)1-10">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="@string/cancel"
+            android:id="@+id/back2"
+            android:textColor="@color/white"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="30dp"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="@string/ok"
+            android:id="@+id/forward2"
+            android:textColor="@color/white"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="30dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
